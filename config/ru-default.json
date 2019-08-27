@@ -1,0 +1,111 @@
+{
+  "title": "Системный статус",
+  "description": "Система индикации статусов вреальном времени.",
+  "labels": {
+    "contact": "Контакты",
+    "support": "Поддержка",
+    "home": "Домой",
+    "powered-by": "Сделано"
+  },
+  "statuses": {
+    "under-maintenance": "Техобслуживание",
+    "degraded-performance": "Падение Производительности",
+    "partial-outage": "Нехватка Энергии",
+    "major-outage": "Проблема С Энергией",
+    "new-incident": "Новый Инцидент",
+    "operational": "Все Работает"
+  },
+  "dates": {
+    "formats": {
+      "short": "MMM D, YYYY",
+      "long": "MMM D, HH:mm UTC",
+      "month": "MMMM YYYY"
+    }
+  },
+  "incidents": {
+    "incidents": "Инциденты",
+    "incident": "Инцидент",
+    "scheduled": "Плановое обслуживание",
+    "incidents-history": "История инцидентов",
+    "incidents-history-description": "Текущие и прошедшие перебои в работе сервиса.",
+    "incidents-history-days-since-latest": "1 день с последнего инцидента | {days} деней с последнего инцидента",
+    "latest-incidents": "Последний инцидент",
+    "current-status": "Текущий статус",
+    "current-status-description": "Будьте в курсе событий в режиме реального времени.",
+    "no-incidents": "Нет сообщений об инцидентах.",
+    "resolved": "Решено",
+    "unresolved": "Не решено",
+    "paginator": {
+      "previous": "Предидущая страница",
+      "next": "Следующая страница",
+      "page": "Страница"
+    },
+    "collapse": {
+      "show": "Show all {count} Incidents",
+      "hide": "Show less Incidents"
+    }
+  },
+  "error": {
+    "go-back-link": "Go back to homepage",
+    "404": {
+      "title": "Page not found",
+      "description": "The page you were looking for was not found"
+    },
+    "other": {
+      "title": "An error occurred",
+      "description": "We're sorry, but we cannot fulfill your request"
+    }
+  },
+  "systems": {
+    "items": {
+      "cdn": {
+        "title": "CDN"
+      },
+      "dns": {
+        "title": "DNS"
+      },
+      "site-delivery": {
+        "title": "Site delivery"
+      },
+      "test": {
+        "title": "Test New"
+      },
+      "api": {
+        "title": "API",
+        "description": "The API Endpoints any developers can access to"
+      }
+    }
+  },
+  "notifications": {
+    "title": "Подписка на обновления",
+    "description": "Choose from the options below to automatically receive status updates.",
+    "buttons": {
+      "subscribe": "Присоедениться",
+      "close": "Закрыть"
+    },
+    "items": {
+      "icalendar": {
+        "title": "Календарь",
+        "description": "Receive <strong>Scheduled Maintenances</strong> via <a href=\"{url}\" target=\"_blank\" rel=\"noopener\">iCalendar</a>."
+      },
+      "feeds": {
+        "title": "Feeds",
+        "description": "Get <a href=\"{atom_url}\" target=\"_blank\" rel=\"noopener\">the Atom Feed</a> or <a href=\"{rss_url}\" target=\"_blank\" rel=\"noopener\">the RSS Feed</a>."
+      },
+      "twitter": {
+        "title": "Twitter",
+        "description": "or <a href=\"https://twitter.com/{username}\" target=\"_blank\" rel=\"noopener\">view our Profile</a>."
+      },
+      "support": {
+        "title": "Support",
+        "description": "Visit our <a href=\"{url}\" target=\"_blank\" rel=\"noopener\">Support Site</a>."
+      },
+      "webpush": {
+        "title": "Push",
+        "description": "Notifications delivered to your browser.",
+        "enable": "Enable Notifications",
+        "enabled": "Notifications are enabled for this browser."
+      }
+    }
+  }
+}
