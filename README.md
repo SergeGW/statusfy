@@ -17,7 +17,7 @@
   ],
   "resolved": false
 }
----
+\---
 На данный момент система недоступна
 
-<!--- language code: ru -->
+<\!--- language code: ru -->
