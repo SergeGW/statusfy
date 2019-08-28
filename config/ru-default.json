@@ -8,12 +8,8 @@
     "powered-by": "Сделано"
   },
   "statuses": {
-    "under-maintenance": "Техобслуживание",
-    "degraded-performance": "Падение Производительности",
-    "partial-outage": "Нехватка Энергии",
-    "major-outage": "Проблема С Энергией",
-    "new-incident": "Новый Инцидент",
-    "operational": "Все Работает"
+    "system-unavailable": "Система недоступна",
+    "operational": "Система доступна"
   },
   "dates": {
     "formats": {
@@ -28,7 +24,7 @@
     "scheduled": "Плановое обслуживание",
     "incidents-history": "История инцидентов",
     "incidents-history-description": "Текущие и прошедшие перебои в работе сервиса.",
-    "incidents-history-days-since-latest": "1 день с последнего инцидента | {days} деней с последнего инцидента",
+    "incidents-history-days-since-latest": "1 день с последнего инцидента | {days} дня(ей) с последнего инцидента",
     "latest-incidents": "Последний инцидент",
     "current-status": "Текущий статус",
     "current-status-description": "Будьте в курсе событий в режиме реального времени.",
@@ -58,21 +54,9 @@
   },
   "systems": {
     "items": {
-      "cdn": {
-        "title": "CDN"
-      },
-      "dns": {
-        "title": "DNS"
-      },
-      "site-delivery": {
-        "title": "Site delivery"
-      },
-      "test": {
-        "title": "Test New"
-      },
-      "api": {
-        "title": "API",
-        "description": "The API Endpoints any developers can access to"
+      "infrastructure": {
+        "title": "Инфраструктура",
+        "description": "Отображение статуса работоспособности всей системы c-e"
       }
     }
   },

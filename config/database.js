@@ -302,11 +302,7 @@ module.exports = async function database(siteConfig, finalDate) {
       const systems = [];
       // Important order of relevance
       const systemSeverities = [
-        "under-maintenance",
-        "major-outage",
-        "partial-outage",
-        "degraded-performance",
-        "new-incident"
+        "system-unavailable"
       ];
       let order = 1;
 

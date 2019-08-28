@@ -1,11 +1,7 @@
 export const statusesInfo = $t => {
   // Important order of relevance
   const keys = [
-    "under-maintenance",
-    "major-outage",
-    "partial-outage",
-    "degraded-performance",
-    "new-incident",
+    "system-unavailable",
     "operational"
   ];
 
@@ -18,11 +14,7 @@ export const statusesInfo = $t => {
   }
 
   const icons = {
-    "under-maintenance": "clock-solid",
-    "degraded-performance": "exclamation-circle-solid",
-    "partial-outage": "minus-circle-solid",
-    "major-outage": "times-circle-solid",
-    "new-incident": "clock-solid",
+    "system-unavailable": "minus-circle-solid",
     operational: "check-circle-solid"
   };
 

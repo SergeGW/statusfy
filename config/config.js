@@ -13,7 +13,7 @@ module.exports = {
   ],
   "content": {
     "frontMatterFormat": "json",
-    dir: 'content', systems: [ 'api', 'dns', 'test' ]
+    dir: 'content', systems: [ 'infrastructure' ]
   },
   "timezone" : "Europe/Moscow"
 }

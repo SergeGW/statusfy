@@ -68,24 +68,8 @@ main {
   &::before {
     border-color: var(--grey-darker);
 
-    .under-maintenance& {
-      border-color: var(--grey-darker);
-    }
-
-    .degraded-performance& {
-      border-color: var(--purple);
-    }
-
-    .partial-outage& {
-      border-color: var(--orange);
-    }
-
-    .major-outage& {
-      border-color: var(--red);
-    }
-
-    .new-incident& {
-      border-color: var(--blue);
+    .system-unavailable& {
+      border-color: var(--red);    
     }
 
     .operational& {
@@ -188,61 +172,7 @@ main {
     }
   }
 
-  &.under-maintenance {
-    &.unresolved {
-      .incident-title {
-        .badge {
-          background-color: var(--grey-darker);
-        }
-
-        a {
-          color: var(--grey-darker);
-        }
-      }
-    }
-
-    .incident-subtitle .status {
-      color: var(--grey-darker);
-    }
-  }
-
-  &.degraded-performance {
-    &.unresolved {
-      .incident-title {
-        .badge {
-          background-color: var(--purple);
-        }
-
-        a {
-          color: var(--purple);
-        }
-      }
-    }
-
-    .incident-subtitle .status {
-      color: var(--purple);
-    }
-  }
-
-  &.partial-outage {
-    &.unresolved {
-      .incident-title {
-        .badge {
-          background-color: var(--orange);
-        }
-
-        a {
-          color: var(--orange);
-        }
-      }
-    }
-
-    .incident-subtitle .status {
-      color: var(--orange);
-    }
-  }
-
-  &.major-outage {
+  &.system-unavailable {
     &.unresolved {
       .incident-title {
         .badge {
@@ -257,24 +187,6 @@ main {
 
     .incident-subtitle .status {
       color: var(--red);
-    }
-  }
-
-  &.new-incident {
-    &.unresolved {
-      .incident-title {
-        .badge {
-          background-color: var(--blue);
-        }
-
-        a {
-          color: var(--blue);
-        }
-      }
-    }
-
-    .incident-subtitle .status {
-      color: var(--blue);
     }
   }
 
@@ -374,33 +286,9 @@ main {
     color: var(--grey-darker);
   }
 
-  &.under-maintenance {
-    .system-status {
-      color: var(--grey-darker);
-    }
-  }
-
-  &.degraded-performance {
-    .system-status {
-      color: var(--purple);
-    }
-  }
-
-  &.partial-outage {
-    .system-status {
-      color: var(--orange);
-    }
-  }
-
-  &.major-outage {
+  &.system-unavailable {
     .system-status {
       color: var(--red);
-    }
-  }
-
-  &.new-incident {
-    .system-status {
-      color: var(--blue);
     }
   }
 
@@ -421,24 +309,8 @@ main {
     @apply ml-2;
   }
 
-  &.under-maintenance {
-    background-color: var(--grey-darker);
-  }
-
-  &.degraded-performance {
-    background-color: var(--purple);
-  }
-
-  &.partial-outage {
-    background-color: var(--orange);
-  }
-
-  &.major-outage {
+  &.system-unavailable {
     background-color: var(--red);
-  }
-
-  &.new-incident {
-    background-color: var(--blue);
   }
 
   &.operational {
